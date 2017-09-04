@@ -1,0 +1,46 @@
+\documentclass{report}[12pt,a4paper]
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+      \draw[line width = 1pt] ($(current page.north west) + (2em,-2em)$) rectangle ($(current page.south east) + (-2em,2em)$);
+    \end{tikzpicture}
+
+    \centering
+    \vspace{-3em}
+    {\Large\textbf{Major Project Proposal Report}}\\
+    \vspace{1.5em}
+    On\\
+    \vspace{1.5em}
+    {\Huge \textbf{TITLE OF THE PROJECT}}\\
+    \vspace{3em}
+    {\LARGE \bfseries Submitted by}\\
+    \vspace{2em}
+    {\Large \emph{\textbf{RegNo.  NAME OF THE STUDENTS}}}\\
+    \vspace{4em}
+    {\Large Under the Guidance of}\\
+    \vspace{2em}
+    {\Large \textbf{NAME OF THE GUIDE}}\\
+    \vspace{2em}
+    {\Large \textbf{Dept. of Information Technology,}}\\
+    \vspace{2em}
+    {\Large \textbf{NITK, Surathkal}}\\
+    \vspace{4em}
+    {\Large \textbf{Date of Submission: DATE}}\\
+    \vspace{1.5em}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics{nitk-logo.png}
+    \end{figure}
+    \vspace{2em}
+    {\Large \bfseries Department of Information Technology}\\
+    \vspace{0.5em}
+    {\Large \bfseries National Institute of Technology Karnataka, Surathkal.}\\
+    \vspace{0.5em}
+    {\Large \bfseries 2017-2018}
+\end{titlepage}    
+\end{document}
